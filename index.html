@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="https://seeklogo.com/images/D/django-logo-F46C1DD95E-seeklogo.com.png">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>MundoDjango</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor menu-nav">
+            <div class="logo">
+                <img
+                    src="https://seeklogo.com/images/D/django-logo-F46C1DD95E-seeklogo.com.png" alt="logo-mundo-django"
+                />
+                <a href="/">MundoDjango</a>
+            </div>
+            <nav class="navegacion">
+                <ul>
+                    <li>
+                        <a href="#">Articulos</a>
+                    </li>
+                    <li>
+                        <a href="#">Proyectos Django</a>
+                    </li>
+                    <li>
+                        <a href="#">Libros</a>
+                    </li>
+                    <li>
+                        <a href="#">Podcasts</a>
+                    </li>
+                    <li>
+                        <a href="#">Cursos</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="btn-mobile-menu">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" 
+                    class="icon-nav icon-menu">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>  
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                    class="icon-nav icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>               
+            </button>
+
+        </div>
+        <section class="contenedor-header">
+            <div class="contenido-header">
+                <h1>Mundo Django</h1>
+                <p>
+                    Su fuente número uno para todas las noticias, tutoriales e información relacionados con Django. Estamos dedicados a brindarle el mejor contenido, con énfasis en los estándares de la comunidad.
+                </p>
+                <div class="botones-header">
+                    <a href="#">Enviar Proyecto</a>
+                    <a href="#">Leer Artículos</a>
+                </div>
+            </div>
+            <div>
+                <img 
+                    src="https://djangocentral.com/static/images/djangocentral_hero.svg" alt="banner-header"
+                />
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <div class="seccion-principal">
+            <h2>Últimos artículos</h2>
+            <p class="parrafo-titulo">
+                Lea lo último de mundo django
+            </p>
+            <section class="contenedor-articulos">
+
+                <!-- 1 -->
+                <div class="articulo">
+                    <span class="etiqueta">DJANGO</span>
+                    <h2><a href="#">Hacer Django Admin Jazzy con django-jazzmin</a></h2>
+                    <p>
+                        Django admin es sin duda una de las aplicaciones más útiles de Django. A lo largo de los años, ha habido muy pocos cambios en la aplicación de administración en lo que respecta a la experiencia de usuario y no es nada malo. Django admin fue diseñado para proporcionar un simile y minimali ...
+                    </p>
+                    <div class="mas-informacion">
+                        <a href="#">Leer más</a>
+                        <span class="span-lectura">4 minutos de lectura</span>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="articulo">
+                    <span class="etiqueta">DJANGO</span>
+                    <h2><a href="#">Finalmente cambiamos de WordPress a Django</a></h2>
+                    <p>
+                        Con gran plancer, me gustaría anunciar que djangocentral ahora funciona con Django, y no podría estar más satisfecho de los resultados. Tenía la intención de hacer este cambio, pero siempre estaba ocupado con otras cosas. pero antes de ...
+                    </p>
+                    <div class="mas-informacion">
+                        <a href="#">Leer más</a>
+                        <span class="span-lectura">11 minutos de lectura</span>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="articulo">
+                    <span class="etiqueta">PROGRAMS</span>
+                    <h2><a href="#">Encuentra el número que falta en una matriz dada usando Python</a></h2>
+                    <p>
+                        Definición del problema: Encuentre los números que faltan en una lista o matriz usando Python. Por ejemplo, en arr = [1, 2, 4, 5] el número entero '3' es el número que falta. Hay varias formas de resolver este problema usando Python. En este artículo, cubriremos el m...
+                    </p>
+                    <div class="mas-informacion">
+                        <a href="#">Leer más</a>
+                        <span class="span-lectura">2 minutos de lectura</span>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="articulo">
+                    <span class="etiqueta">Python</span>
+                    <h2><a href="#">Cración de matrices NumPy</a></h2>
+                    <p>
+                        NumPy es uno de los paquetes más populares en el ecosistema de Python. NumPy agrega compatibilidad con grandes arreglos y matrices multidimencionales con gran eficiencia. Los arreglos numpy son mucho más rápidos que las listas tradicionales de python porque se almacenan en m...
+                    </p>
+                    <div class="mas-informacion">
+                        <a href="#">Leer más</a>
+                        <span class="span-lectura">5 minutos de lectura</span>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="articulo">
+                    <span class="etiqueta">DJANGO</span>
+                    <h2><a href="#">Cración de validación de modelo personalizado en Django</a></h2>
+                    <p>
+                        En este tutorial, aprenderemos cómo crear validadores de modelos personalizados usando Django. Comprender el problema. Los modelos de Django vienen con sus propias validaciones integradas, que ponemos al crear modelos. Sin embargo, a menudo requerimos más validaciones en algunas...
+                    </p>
+                    <div class="mas-informacion">
+                        <a href="#">Leer más</a>
+                        <span class="span-lectura">3 minutos de lectura</span>
+                    </div>
+                </div>
+
+                <!-- boton ver todos -->
+                <div class="contenedor-btn">
+                    <a href="#" class="btn-ver-todos">Ver todos</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor-footer">
+            <div class="fuentes-footer">
+                <h3>Recursos</h3> 
+                <ul>
+                    <li><a href="#">Mapa del sitio</a></li>
+                    <li><a href="#">RSS Feed</a></li>
+                    <li><a href="#">Solicitud de función</a></li>
+                    <li><a href="#">Reportar un error</a></li>
+                </ul>  
+            </div>
+            <div class="paginas-footer">
+                <h3>Páginas</h3>
+                    <li><a href="#">Contáctenos</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+            </div>
+            <div class="explorar-footer">
+                <h3>Explorar</h3>
+                    <ul>
+                        <li><a href="#">Artículos</a></li>
+                        <li><a href="#">Proyectos con Django</a></li>
+                        <li><a href="#">Libros</a></li>
+                        <li><a href="#">Cursos</a></li>
+                    </ul>
+            </div>
+            <div class="proyectos-footer">
+                <h3>Proyectos con Django</h3>
+                    <ul>
+                        <li><a href="#">Enviar un proyecto</a></li>
+                        <li><a href="#">Redes sociales</a></li>
+                        <li><a href="#">Proyectos de código abierto</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="contenedor-footer2">
+            <div class="footer-final">
+                <p>&copy; 2023 - mundodjango | Desarrollado por Christian Berti</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>

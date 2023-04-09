@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0f172a;
+    color: #fff;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 2.5rem;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.navegacion ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.navegacion li {
+    list-style: none;
+}
+
+.btn-mobile-menu {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+.icon-nav {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+}
+
+.contenedor-header {
+    display: flex;
+    max-width: 140rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 4rem;
+    padding-bottom: 9rem;
+    font-weight: 500;
+}
+
+.contenido-header h1 {
+    font-weight: 800;
+    font-size: 4.5rem;
+}
+
+.contenido-header p {
+    padding-right: 8rem;
+    color: #d4cecf;
+    line-height: 1.7;
+}
+
+.botones-header {
+    margin-top: 4rem;
+}
+
+.botones-header a:first-child{
+    background-color: #059669;
+    color: #fff;
+    padding: 1.3rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.botones-header a:last-child{
+    background-color: #f5f5f5;
+    color: #404040;
+    padding: 1.3rem 2rem;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.contenedor-header img {
+    width: 100%;
+}
+
+/* Main */
+main {
+    border: 1px solid transparent;
+    background-color: #1e293b;
+    color: #d4d4d4;
+}
+
+.seccion-principal {
+    margin: 0 auto;
+    max-width: 90rem;
+    padding: 8rem 0;
+}
+
+.seccion-principal h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.6rem;
+    color: #f5f5f5;
+}
+
+.seccion-principal p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.parrafo-titulo {
+    margin-bottom: 8rem;
+}
+
+.contenedor-articulos {
+    display: flex;
+    flex-direction: column;
+}
+
+.articulo {
+    border-bottom: 2px solid #525252;
+    padding: 4.8rem 0;
+}
+
+.articulo:nth-child(5) {
+    border-bottom: none;
+    margin-bottom: 2rem;
+}
+
+/* Spans o categorias */
+
+.etiqueta {
+    background-color: #334155;
+    color: #d4d4d4;
+    font-weight: 500;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: .5rem;
+}
+
+.span-lectura {
+    color: #a3a3a3;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.articulo h2 {
+    text-align: left;
+    margin: 1.8rem 0 2rem 0;
+}
+
+.articulo h2 a {
+    color: #fff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.articulo p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.5rem;
+}
+
+.mas-informacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.articulo a {
+    text-decoration: none;
+    color: #10b981;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.contenedor-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-ver-todos {
+    text-decoration: none;
+    color: #fff;
+    background-color: #10b981;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-weight: 500;
+}
+
+.btn-ver-todos:hover {
+    background-color: #10b98190;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #0f172a;
+    border: 1px solid transparent;
+}
+
+.contenedor-footer {
+    color: #fff;
+    max-width: 130rem;
+    margin: 0 auto;
+    display: flex;
+    padding: 8rem 2rem;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.contenedor-footer ul {
+    padding: 0;
+}
+
+.contenedor-footer li {
+    list-style: none;
+}
+
+.contenedor-footer a {
+    text-decoration: none;
+    color: #d4d4d4;
+    line-height: 2;
+    font-size: 1.5rem;
+}
+
+.contenedor-footer a:hover {
+    color: #fff;
+}
+
+.contenedor-footer2 {
+    background-color: #1e293b;
+    color: #a3a3a3;
+    padding: 1.5rem 0;
+}
+
+.footer-final {
+    max-width: 120rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Responsive */
+
+@media (max-width: 1023px) {
+    .navegacion {
+        background-color: #0f172a;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: all 0.5s;
+
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .navegacion ul li a {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .nav-activo .navegacion{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .nav-activo .icon-close {
+        display: block;
+    }
+
+    .nav-activo .icon-menu {
+        display: none;
+    }
+
+    .navegacion ul {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .btn-mobile-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1.5rem 2rem 0 0;
+    }
+
+    .icon-close {
+        display: none;
+    }
+
+    .articulo {
+        margin: 0 3.5rem;
+    }
+
+    .contenedor-footer {
+        align-items: flex-start;
+        line-height: 0.4rem;
+        padding: 6rem 2rem;
+        font-weight: 400;
+        margin: 0 0
+    }
+
+    .contenedor-footer {
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+    .contenedor-footer a {
+        font-size: 1.3rem;
+    }
+
+    
+}
+
+@media (max-width: 763px) {
+
+    .navegacion {
+        background-color: #0f172a;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        transition: all 0.5s;
+
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .navegacion ul li a {
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+
+    .nav-activo .navegacion{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+    }
+
+    .nav-activo .icon-close {
+        display: block;
+    }
+
+    .nav-activo .icon-menu {
+        display: none;
+    }
+
+    .navegacion ul {
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .btn-mobile-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 1.5rem 2rem 0 0;
+    }
+
+    .icon-close {
+        display: none;
+    }
+
+    .contenedor-header {
+        flex-direction: column;
+        max-width: 100;
+        padding: 2.5rem;
+    }
+
+    .contenido-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-header h1 {
+        font-size: 2.6rem;
+        margin-bottom: 0;
+    }
+
+    .contenido-header p{
+        text-align: center;
+        padding-right: 0;
+        font-weight: 300;
+        font-size: 1.5rem;
+    }
+
+    .botones-header {
+        margin-top: 2.5rem;
+        max-width: 100%;
+    }
+
+    .botones-header a:first-child {
+        font-size: 1.3rem;
+        padding: 1.2rem;
+    }
+
+    .botones-header a:last-child {
+        font-size: 1.3rem;
+        padding: 1.2rem;
+    }
+
+    .contenedor-header img {
+        margin-top: 7rem;
+        width: 25rem;
+    }
+    
+    /* MAIN */
+
+    .seccion-principal h2 {
+        font-size: 2.1rem;
+    }
+
+    .parrafo-titulo {
+        margin-bottom: 4rem;
+    }
+
+    .articulo {
+        margin: 0 3.5rem;
+    }
+
+    .articulo p {
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .etiqueta {
+        font-size: 1rem;
+    }
+
+    .contenedor-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 0.6rem;
+        padding: 5rem 0;
+        font-weight: 400;
+    }
+
+    .contenedor-footer h3 {
+        margin-bottom: 1rem;
+    }
+
+    .explorar-footer {
+        margin-top: 1.2rem;
+    }
+
+    .footer-final {
+        font-size: 1.3rem;
+    }
+}
+
+
